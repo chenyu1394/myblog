@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>卿言的博客</title>
+  <link rel="stylesheet" type="text/css" href="res/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="res/css/main.css">
+	 <link rel="stylesheet" type="text/css" href="res/simditor/css/simditor.css" />
+	 
+	<script type="text/javascript" src="res/simditor/js/jquery.min.js"></script>
+	<script type="text/javascript" src="res/simditor/js/module.js"></script>
+	<script type="text/javascript" src="res/simditor/js/hotkeys.js"></script>
+	<script type="text/javascript" src="res/simditor/js/uploader.js"></script>
+	<script type="text/javascript" src="res/simditor/js/simditor.js"></script>
+<!--加载meta IE兼容文件-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div class="header">
+    <div class="menu-btn">
+      <div class="menu"></div>
+    </div>
+    <h1 class="logo">
+      <a href="index.html">
+        <span>MYBLOG</span>
+        <img src="res/img/logo.png">
+      </a>
+    </h1>
+    <div class="nav">
+      <a href="index.html" class="active">文章</a>
+      <a href="about.html">关于</a>
+    </div>
+    <ul class="layui-nav header-down-nav">
+      <li class="layui-nav-item"><a href="index.html" class="active">文章</a></li>
+      <li class="layui-nav-item"><a href="about.html">关于</a></li>
+    </ul>
+    <p class="welcome-text">
+      欢迎来到<span class="name">卿言</span>的博客~
+    </p>
+  </div>
+
+  <div class="banner">
+    <div class="cont w1000">
+      <div class="title">
+        <h3>MY<br />BLOG</h3>
+        <h4>卿言</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="cont w1000">
+      <div class="title">
+        <span class="layui-breadcrumb" lay-separator="|">
+          <a href="javascript:;" class="active">精选文章</a>
+        </span>
+      </div>
+      <div class="list-item" id="page">
+        <div class="item" id="item_1">
+          <div class="layui-fluid">
+            <div class="layui-row">
+              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                <div class="img"><img src="#" alt=""></div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                <div class="item-cont">
+                  <h3></h3>
+                  <h5></h5>
+                  <p></p>
+                  <a href="details.html" class="go-icon"></a>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="item" id="item_2">
+          <div class="layui-fluid">
+            <div class="layui-row">
+              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                <div class="img"><img src="#" alt=""></div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                <div class="item-cont">
+                  <h3></h3>
+                  <h5></h5>
+                  <p></p>
+                  <a href="details.html" class="go-icon"></a>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="item" id="item_3">
+          <div class="layui-fluid">
+            <div class="layui-row">
+              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                <div class="img"><img src="#" alt=""></div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                <div class="item-cont">
+                  <h3></h3>
+                  <h5></h5>
+                  <p></p>
+                  <a href="details.html" class="go-icon"></a>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="item" id="item_4">
+          <div class="layui-fluid">
+            <div class="layui-row">
+              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                <div class="img"><img src="#" alt=""></div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                <div class="item-cont">
+                  <h3></h3>
+                  <h5></h5>
+                  <p></p>
+                  <a href="details.html" class="go-icon"></a>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="item" id="item_5">
+          <div class="layui-fluid">
+            <div class="layui-row">
+              <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                <div class="img"><img src="#" alt=""></div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                <div class="item-cont">
+                  <h3></h3>
+                  <h5></h5>
+                  <p></p>
+                  <a href="details.html" class="go-icon"></a>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+      </div>
+			<span id="data_count"></span>
+      <div id="demo" style="text-align: center;"></div>
+    </div>
+  </div>
+
+  <div class="footer-wrap">
+    <div class="footer w1000">
+      <div class="qrcode">
+        <img src="res/img/Screenshot_20200521_154335.jpg">
+      </div>
+      <div class="practice-mode">
+        <img src="res/img/down_img.jpg">
+        <div class="text">
+          <h4 class="title">我的联系方式</h4>
+          <p>微信<span class="WeChat">qingyan3507809178</span></p>
+          <p>QQ<span class="iphone">&nbsp;&nbsp;3507809178</span></p>
+          <p>邮箱<span class="email">3507809178@qq.com</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="res/layui/layui.js"></script>
+	<script type="text/javascript" src="res/simditor/js/jquery.min.js"></script>
+  <script type="text/javascript">
+				var baseUrl = "http://127.0.0.1:8080/belog/";
+		//得到文章总条数
+				$.ajax(baseUrl+"articleCount",{
+					type: "GET",
+					success: function(res){
+						if(res.state == 0){
+								//分页实现
+							   layui.use('laypage', function(){
+							  var laypage = layui.laypage;
+							  //执行一个laypage实例
+							  laypage.render({
+							    elem: 'demo' //注意，这里的 test1 是 ID，不用加 # 号
+							    ,count: res.res ,//数据总数，从服务端得到
+									limit: 5 ,//每页显示的条数
+									jump: function(obj, first){
+							    //obj包含了当前分页的所有参数，比如：
+							    // console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+							    // console.log(obj.limit); //得到每页显示的条数
+									let url = baseUrl+"getArticleByPage/"+obj.curr
+									getPage(url);
+							    //首次不执行
+							    if(!first){
+							      //do something
+							    }
+							  }
+							  });
+							});
+							
+						}
+					}
+				});
+				
+		
+
+		//初始化导航栏
+		layui.config({
+		  base: 'res/js/util/'
+		}).use(['menu'],function(){
+		  element = menu = layui.menu;
+		  menu.init();
+		});
+		
+		
+		let arr = ["#item_1","#item_2","#item_3","#item_4","#item_5"];   //存放每个分页页面模块的的id
+		//隐藏全部分页模块
+		for(var i = 0;i < arr.length;i++){
+			$(arr[i]).hide();
+		}
+		//根据每页的数据显示分页模块
+		function doShow(num){
+			let arr = ["#item_1","#item_2","#item_3","#item_4","#item_5"];
+			for(var i = 0;i < arr.length;i++){
+				if(i < num){
+					$(arr[i]).show();
+				}else{
+						$(arr[i]).hide();
+				}
+			}
+		}
+		
+		//分页请求函数
+		function getPage(url){
+			$.ajax(url,{
+				type: "GET",
+				success: function(res){
+					if(res.state == 0){
+						$.each($(".item"),function(i,e){
+							// console.log(e.children[0].children[0].children[0].children[0].children[0].innerHTML);
+							e.children[0].children[0].children[1].children[0].children[0].innerHTML = res.res[i].title;
+							e.children[0].children[0].children[1].children[0].children[1].innerHTML = res.res[i].tag;
+							e.children[0].children[0].children[1].children[0].children[2].innerHTML = res.res[i].profile;
+							e.children[0].children[0].children[1].children[0].children[3].setAttribute("href","./details.html?id="+res.res[i].id);
+								//设置封面
+							e.children[0].children[0].children[0].children[0].children[0].setAttribute("src",res.res[i].cover);
+							//显示模块
+							doShow(res.res.length);
+							// console.log(res.res[i].cover);
+							
+							
+							
+							
+						});
+					}
+				}
+			});
+		}
+		
+		//分页实现
+   layui.use('laypage', function(){
+  var laypage = layui.laypage;
+  //执行一个laypage实例
+  laypage.render({
+    elem: 'demo' //注意，这里的 test1 是 ID，不用加 # 号
+    ,count: $("#data_count").text(),//数据总数，从服务端得到
+		limit: 5 ,//每页显示的条数
+		jump: function(obj, first){
+    //obj包含了当前分页的所有参数，比如：
+    // console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+    // console.log(obj.limit); //得到每页显示的条数
+		let url = baseUrl+"getArticleByPage/"+obj.curr
+		getPage(url);
+    
+    //首次不执行
+    if(!first){
+      //do something
+    }
+  }
+  });
+});
+  </script>
+</body>
+</html>
