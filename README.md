@@ -1,5 +1,5 @@
 ### Project name:
-      myblog
+      单体博客项目
 
 ### Introduction:
       I think myblog is a very good project, which is divided into front-end module and back-end module. I have used the most popular SSM architecture to design the main frame and added many functions to my personal blog, such as: authority, comment, reply and recommend. these functions can also be used in the enterprise. We can practice this project to get more skills about SSM Structure. 
@@ -9,7 +9,7 @@
       SSM+layui
 
 ### Skills:
-      MySQL, javascript, jQuery, ajax, redis, Linux, Tencent Cloud
+      MySQL, javascript, jQuery, ajax, redis, Linux, springboot
 
 
 ### Function:
@@ -25,3 +25,4 @@
 shulei
 
 Front-end display
+1
